@@ -1,0 +1,124 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: orange;
+}
+.footer_logo img{
+ width: 90px;
+ margin-bottom: 5px;
+
+}
+.footer_logo img h5{
+ font-weight: 600;
+ margin-bottom: 15px;
+}
+.footer_logo p{
+font-size: .9rem;
+color: black;
+line-height: 20px;
+}
+.delivery_time_list{
+    background: transparent !important;
+}
+.deliver_time{
+    background: transparent !important;
+}
+.deliver_time span{
+ color: black;
+ font-weight: 600;
+}
+.delivery_time_item span{
+font-weight: 600;
+font-size: 1rem;;
+color: black;
+background: transparent;
+}
+.NewsLetter input{
+    background: transparent;
+    border: none;
+    outline: none;
+}
+.NewsLetter{
+    padding: 5px;
+    border: 1px solid;
+    border-radius:5px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+.NewsLetter input:focus{
+    outline: none;
+}
+.NewsLetter input::placeholder{
+    color: black;
+}
+
+.NewsLetter span{
+    padding: 5px 10px;
+    background: black;
+
+    border-radius: 5px;
+}
+.NewsLetter span i{
+    color: white;
+}
+.social span i{
+    color: black;
+    padding: 5px;
+    background: white;
+    border-radius: 50%;
+}
+.copy{
+    font-size: .9rem;
+    color: brown;
+}
+
+@media only screen and (max-width:768px){
+    .delivery_time_list{
+        font-size: .8rem;
+    }
+    .delivery_time_list span{
+    font-size: .8rem;
+    }
+    .delivery_time_list p{
+        font-size: .7rem;
+        margin-bottom: 0;
+    }
+    .NewsLetter input{
+        padding: 10px 7px;
+        font-size: .7rem;
+    }
+    .NewsLetter span{
+        padding: 5px 10px;
+    }
+
+}
+
+@media only screen and (max-width:576px){
+.social{
+    justify-content: center;
+}
+.copy{
+    text-align: center;
+}
+.social p{
+    font-size: .8rem;
+}
+.social span{
+    padding: 4px;
+}
+.social span a{
+    font-style: .7rem;
+}
+}
+@media only screen and (max-width:992px){
+    .NewsLetter input{
+        padding: 10px 7px;
+        font-size: .7rem;
+    }
+    .NewsLetter span{
+        padding: 5px 10px;
+    }
+
+}

@@ -1,0 +1,16 @@
+.category_img img{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+.category_item {
+    background: orange;
+    padding: 30px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 30px;
+    transition: .4s;
+}
+.category_item:hover{
+    transform: translateY(-15px);
+}

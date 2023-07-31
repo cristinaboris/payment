@@ -1,0 +1,31 @@
+th{
+    text-align: center;
+}
+.cart_img{
+    width: 80px;
+}
+.cart_img img{
+    width: 100%;
+}
+.delete i{
+    cursor: pointer;
+}
+.addToCard{
+    padding: 10px 24px;
+    font-size: .7rem;
+    background: orange;
+    border: none;
+}
+.cart_page button a:hover{
+  color: white;
+}
+.subtotal span{
+    font-size: 1.5rem;
+    color: orange;
+}
+
+@media only screen and (max-width: 768px){
+    th, td {
+        font-style: .8rem;
+    }
+}

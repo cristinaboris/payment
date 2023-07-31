@@ -1,0 +1,224 @@
+.hero_title{
+    font-size: 2.5rem;
+    line-height: 55px;
+}
+.hero_title span{
+    color: orange;
+}
+.hero_container p{
+    font-size: 1rem;
+    line-height: 30px;
+    color: black;
+}
+.hero_container{
+    padding-top: 70px;
+}
+.all_foods_btn{
+    text-decoration: none;
+}
+.hero_btn button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hero_btn button a{
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.order_btn{
+    background: orange;
+    color: beige;
+    transition: 0.3s;
+}
+.order_btn:hover{
+    background: black;
+}
+.all_foods_btn{
+    background: transparent;
+    border: 1px solid orange !important;
+}
+.shipping i{
+  padding: 5px;
+  color: beige;
+  border-radius: 50%;
+  background: orange;
+  font-weight: 500;
+}
+.hero_service p{
+    color:black;
+    font-weight: 600;
+    font-size: .9rem;
+}
+.feature_subtitle{
+    color: orange;
+
+}
+.feature_title span{
+    color: orange
+}
+.feature_text{
+    color: black;
+    font-size: 600;
+}
+.feature_item img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.feature_item p{
+    color: black
+}
+.categore_food img{
+
+  width: 65px;
+  height: 65px;
+}
+.categore_food{
+    background: orange;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0;
+    border-radius: 8px;
+}
+.categore_food button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: beige;
+}
+.foodActiveBt{
+   
+    border-radius: 5px;
+    border: 5px solid black !important;
+}
+.all_btn{
+    background                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 : beige !important;
+    border-radius: 5px;
+    padding: 20px 40px !important; 
+    color: orange !important;
+}
+.why_tasty__treat span{
+    color: orange;
+}
+.tasty-treat_desc{
+    color: black;
+    line-height: 25px;
+}
+.icon i{
+    color: orange;
+    margin-right: 5px;
+}
+.testimonial_sub{
+   color: orange;
+}
+.testimonial_title span{
+    color: orange;
+}
+.testimonial_desc{
+    line-height: 30px;
+}
+.why_choose{
+    padding-top: 0 !important;
+}
+
+@media only screen and (max-width:576px){
+    .hero_container h5{
+        font-size: 1rem;
+    }
+    .hero_title{
+        font-size: 1.5rem;
+        line-height: 45px;
+    }
+    .hero_container p{
+        font-size: .8rem;
+    }
+    .hero_container {
+    text-align: center;
+    }
+    .hero_img img{
+        width: 400px;
+        height: 400px;
+    }
+  .hero_btn{
+        justify-content: center;;
+  }
+  .hero_btn button{
+     padding: 5px 15px;
+     font-size: .7rem;
+  }
+  .hero_service{
+    justify-content: center;
+  }
+  .hero_service p{
+    font-size: .8rem !important;
+  }
+  .categore_food img{
+   width: 15px;
+   height: 15px;
+  }
+.feature_item h5{
+  font-size: .9rem;
+}
+.feature_item p{
+    font-size: .9rem;
+    margin-bottom: 0;
+}
+.categore_food img{
+    width: 20px;
+    height: 20px;
+}
+.tasty-treat_desc{
+    font-size: .8rem;
+}
+.why_tasty__treat{
+    font-size: 1.4rem;
+}
+.icon{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+}
+
+@media only screen and (max-width:768px){
+    .hero_container p{
+        font-size: .8rem;
+    }
+    .hero_container {
+    text-align: center;
+    }
+    .hero_img img{
+        width: 400px;
+        height: 400px;
+    }
+  .hero_btn{
+        justify-content: center;;
+  }
+  .hero_btn button{
+     padding: 5px 15px;
+     font-size: .7rem;
+  }
+  .hero_service{
+    justify-content: center;
+  }
+.feature_subtitle{
+    font-size: 1rem;
+}
+.feature_text{
+font-size: .8rem;
+margin-bottom: 0;
+}
+.categore_food img{
+    width: 20px;
+    height: 20px;
+}
+.categore_food button{
+padding: 5px 15px;
+font-size: .7rem;
+}
+}
+@media only screen and (max-width:768px){}

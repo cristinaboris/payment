@@ -1,0 +1,34 @@
+.cart_item_desc img{
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+.cart_ptoduct_title{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.cart_product_price{
+    font-size: .8rem;
+}
+.cart_product_price span {
+  font-size: 1rem;
+  font-weight: 600;
+  color: orange;
+}
+.cart_item_button{
+    background: orange;
+    padding: 2px 3px;
+    border-radius: 3px;
+}
+.cart_item_button span{
+    cursor: pointer;
+
+}
+.delete{
+    font-size: 1rem;
+    font-weight: bold;
+}
+.cart_item{
+    padding-bottom: 10px;
+    border-bottom: 1px solid orange;
+}

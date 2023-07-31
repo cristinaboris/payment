@@ -1,0 +1,26 @@
+.add{
+    font-size: .8rem;
+    background: orange;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+.checkout{
+    background: beige;
+    padding: 30px;
+    border-top: 1px solid red;
+    padding-top: 30px;
+}
+.checkout_end{
+    margin-top: 20px;
+    border-top: 1px solid black;
+}
+
+@media only screen and (max-width:792px){
+    .checkout h6{
+        font-size: .9rem;
+    }
+    .checkout{
+        margin-top: 40px;
+    }
+}

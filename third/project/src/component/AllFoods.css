@@ -1,0 +1,51 @@
+.searching input{
+ border: none;
+}
+.searching, .sorting select{
+    border: 1px solid black;
+    padding: 7px 15px;
+    cursor: pointer;
+}
+.searching input:focus{
+  outline: none;
+}
+.sorting{
+    padding: 7px 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.pagination{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 1rem;
+    list-style: none;
+}
+.pagination a{
+ list-style: none;
+ padding: 7px 13px;
+ background: orange;
+ color: white;
+ border-radius: 5px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ cursor: pointer;
+ margin: 5px;
+}
+.pagination a:hover{
+ background: rgba(146, 141, 141, 0.603);
+ color: beige;
+}
+
+@media only screen and (max-width:768px){
+    .searching , .sorting select{
+     width: 100% !important;
+    }
+    .searching input{
+        width: 100%;
+    }
+}
